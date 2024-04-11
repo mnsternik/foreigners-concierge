@@ -1,0 +1,44 @@
+{
+    "navbar": {
+        "about": "O nas",
+        "companies": "Dla firm", 
+        "foreigners": "Dla cudzoziemców", 
+        "contact": "Kontakt"
+    },
+    "heroSection": {
+        "header": "Foreigners Concierge",
+        "subHeader": "Otwieramy drzwi do bezpiecznej przyszłości - Zaufaj naszemu doświadczeniu w legalizacji.", 
+        "button": "Dowiedz się więcej"
+    },
+    "aboutSection": {
+        "professionalism": {
+            "title": "Profesjonalizm",
+            "description": "Nasz młody i ambitny zespół oferuje kompleksową pomoc w legalizacji pobytu dla cudzoziemców w Polsce. Zapewniamy skuteczną obsługę klientów dzięki profesjonalizmowi i zaangażowaniu."
+        },
+        "experience": {
+            "title": "Doświadczenie",
+            "description": "Z ponad 6-letnim doświadczeniem w legalizacji pobytu cudzoziemców w Polsce, nasza firma zdobyła wiedzę i umiejętności potrzebne do efektywnego radzenia sobie z różnorodnymi przypadkami i sytuacjami."
+        },
+        "individualApproach": {
+            "title": "Indywidualne podejście",
+            "description": "Kładziemy duży nacisk na indywidualne podejście do każdego klienta. Rozumiemy, że każda sytuacja jest unikalna, dlatego oferujemy spersonalizowane usługi, dostosowane do potrzeb i priorytetów każdego klienta."
+        },
+        "bottomText": {
+            "support": "Oferujemy kompleksowe wsparcie dla indywidualnych cudzoziemców oraz firm.",
+            "offer": "Zapoznaj się z naszą ofertą!",
+            "individualsBtn": "Dla cudzoziemców",
+            "companiesBtn": "Dla firm"
+        }
+    },
+    "contactSection": {
+        "header": "Skontaktuj się z nami",
+        "subHeader": "aby rozpocząć proces legalizacji pobytu lub uzyskać więcej informacji. Jesteśmy tu, by Ci pomóc!",
+        "form": {
+            "fullname": "Imię i naziwsko", 
+            "email": "Email", 
+            "phone": "Numer telefonu", 
+            "message": "Wiadomość",
+            "submitBtn": "Wyślij"
+        }
+    }
+}
