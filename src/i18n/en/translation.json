@@ -1,0 +1,44 @@
+{
+    "navbar": {
+        "about": "About",
+        "companies": "For Companies", 
+        "foreigners": "For Foreigners", 
+        "contact": "Contact"
+    },
+    "heroSection": {
+        "header": "Foreigners Concierge",
+        "subHeader": "We open doors to a secure future - Trust our experience in legalization.",
+        "button": "Learn more"
+    },
+    "aboutSection": {
+        "professionalism": {
+            "title": "Professionalism",
+            "description": "Our young and ambitious team provides comprehensive assistance in the legalization of stay for foreigners in Poland. We ensure effective customer service through professionalism and dedication."
+        },
+        "experience": {
+            "title": "Experience",
+            "description": "With over 6 years of experience in legalizing the stay of foreigners in Poland, our company has gained the knowledge and skills necessary to effectively deal with various cases and situations."
+        },
+        "individualApproach": {
+            "title": "Individual Approach",
+            "description": "We place great emphasis on an individual approach to each client. We understand that each situation is unique, which is why we offer personalized services tailored to the needs and priorities of each client."
+        },
+        "bottomText": {
+            "support": "We offer comprehensive support for individual foreigners and companies.",
+            "offer": "Check out our offer!",
+            "individualsBtn": "For Foreigners",
+            "companiesBtn": "For Companies"
+        }
+    },
+    "contactSection": {
+        "header": "Contact Us",
+        "subHeader": "to start the residence legalization process or to get more information. We are here to help you!",
+        "form": {
+            "fullname": "Full Name", 
+            "email": "Email", 
+            "phone": "Phone Number", 
+            "message": "Message",
+            "submitBtn": "Submit"
+        }
+    }
+}
