@@ -1,12 +1,12 @@
 const ContactForm = () => {
     return (
-        <section class="bg-light py-3 py-md-5">
+        <section class="bg-light py-3 py-md-5" style={{minHeight: 'calc(100vh - (56px + 57px))'}}>
         <div class="container">
           <div class="row justify-content-md-center">
             <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6 text-center">
-              <h3 class="display-5 text-body-emphasis" style={{fontWeight: '400'}}>Skontaktuj się z nami</h3>
-              <p class="text-secondary h5 mb-5 text-center" style={{fontWeight: '400'}}>aby rozpocząć proces legalizacji pobytu lub uzyskać więcej informacji. Jesteśmy tu, by Ci pomóc!</p>
-              <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle" />
+              <h4 class="display-6 text-body-emphasis" style={{fontWeight: '400'}}>Skontaktuj się z nami</h4>
+              <p class="h5  text-center" style={{fontWeight: '400'}}>aby rozpocząć proces legalizacji pobytu lub uzyskać więcej informacji. Jesteśmy tu, by Ci pomóc!</p>
+              <hr class="w-50 mx-auto mb-4 mb-xl-9 border-dark-subtle" />
             </div>
           </div>
         </div>
