@@ -1,5 +1,5 @@
 .about {
-    height: calc(100vh - (56px + 57px)); 
+    min-height: calc(100vh - (56px + 57px)); 
     display: flex; 
     flex-direction: column;
     justify-content: space-around;
