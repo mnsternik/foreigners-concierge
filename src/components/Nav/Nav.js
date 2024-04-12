@@ -1,23 +1,19 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import { NavLink, Link } from 'react-router-dom';
 
 const Nav = () => {
-    const [dropdownOpen, setDropdownOpen] = useState(false);
-    const [selectedLanguage, setSelectedLanguage] = useState('pl'); 
-
     const { i18n } = useTranslation();
     const { t } = useTranslation();
 
-    useEffect(() => {
-        setSelectedLanguage(i18n.language); 
-        // console.log(i18n.language);
-        console.log(selectedLanguage);
-    }, [])
+    const [dropdownOpen, setDropdownOpen] = useState(false);
+    const [selectedLanguage, setSelectedLanguage] = useState(i18n.language); 
 
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);
+        setSelectedLanguage(lng); 
+        // localStorage.setItem('foreignersConciergeLng', lng); 
     };
 
     const toggleDropdown = () => {
