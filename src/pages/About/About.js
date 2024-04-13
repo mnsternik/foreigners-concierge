@@ -1,5 +1,7 @@
 import { useTranslation } from "react-i18next";
 
+import { Link } from "react-router-dom";
+
 import classes from "./About.module.css";
 
 const About = (props) => {
@@ -27,7 +29,8 @@ const About = (props) => {
                             </svg>
                         </div>
                         <h3 className="fs-2 text-body-emphasis">{t('aboutSection.experience.title')}</h3>
-                        <p>{t('aboutSection.experience.description')}</p>                    </div>
+                        <p>{t('aboutSection.experience.description')}</p>
+                    </div>
                     <div className="feature col">
                         <div className="feature-icon d-inline-flex align-items-center justify-content-center text-primary bg-gradient fs-2 mb-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" className="bi bi-person-arms-up" viewBox="0 0 16 16">
@@ -36,16 +39,21 @@ const About = (props) => {
                             </svg>
                         </div>
                         <h3 className="fs-2 text-body-emphasis">{t('aboutSection.individualApproach.title')}</h3>
-                        <p>{t('aboutSection.individualApproach.description')}</p>                    </div>
+                        <p>{t('aboutSection.individualApproach.description')}</p>
+                    </div>
                 </div>
             </div>
             <div className="px-4 pb-2 text-center mb-3">
                 <div className="col-lg-6 mx-auto">
-                    <p className="h5 mb-4" style={{fontWeight: '400'}}>{t('aboutSection.bottomText.support')}</p>
-                    <p className="h5 mb-4" style={{fontWeight: '400'}}>{t('aboutSection.bottomText.offer')}</p>
+                    <p className="h5 mb-4" style={{ fontWeight: '400' }}>{t('aboutSection.bottomText.support')}</p>
+                    <p className="h5 mb-4" style={{ fontWeight: '400' }}>{t('aboutSection.bottomText.offer')}</p>
                     <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                        <button type="button" className="btn btn-primary btn-lg px-4 me-sm-3">{t('aboutSection.bottomText.individualsBtn')}</button>
-                        <button type="button" className="btn btn-outline-secondary btn-lg px-4">{t('aboutSection.bottomText.companiesBtn')}</button>
+                        <Link to="/foreigners">
+                            <button type="button" className="btn btn-primary btn-lg px-4 me-sm-3">{t('aboutSection.bottomText.individualsBtn')}</button>
+                        </Link>
+                        <Link to="/companies">
+                            <button type="button" className="btn btn-outline-secondary btn-lg px-4">{t('aboutSection.bottomText.companiesBtn')}</button>
+                        </Link>
                     </div>
                 </div>
             </div>
